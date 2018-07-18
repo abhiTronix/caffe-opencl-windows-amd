@@ -4,6 +4,7 @@
 
 ## Custom requirements for this branch:
 
+- Git Windows (Intalled and configured)
 - Microsoft Visuals 15.0 2017 installed and configured (as compiler).
 - Python 2.7.15 installed and configured (for building pycaffe)
 - Numpy (`pip install numpy`)
@@ -21,6 +22,8 @@ Open Command Prompt and follow up:
 - `mkdir build && cd build`
 - `cmake -G"Visual Studio 15 2017 Win64" -DBLAS=Open -DViennaCL_INCLUDE_DIR=<path to ViennaCL Library> -DOpenCV_DIR=<path to OpenCV build> -DOPENCL_LIBRARIES= <path to AMD APP SDK Static Library> ..`
 - `cmake --build . --target install --config release`
+
+Final Files can be found here: `caffe/build/install`
 
 
 ## Other Custom distributions
