@@ -6,6 +6,7 @@
 
 - Microsoft Visuals 15.0 2017 installed and configured (as compiler).
 - Python 2.7.15 installed and configured (for building pycaffe)
+- Numpy (`pip install numpy`)
 - OpenCV installed (Latest will be good)
 - AMD GPU with Latest drivers installed properly
 - AMD APP SDK Windows(any version - Preferred-3.0) installed
