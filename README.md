@@ -17,7 +17,7 @@
 ## Configuring and compiling procedure:
 Open Command Prompt and follow up:
 - `git clone https://github.com/abhiTronix/caffe-opencl-windows-amd.git`
-- `cd caffe`
+- `cd caffe-opencl-windows-amd`
 - `git checkout opencl-windows-amd`
 - `mkdir build && cd build`
 - `cmake -G"Visual Studio 15 2017 Win64" -DBLAS=Open -DViennaCL_INCLUDE_DIR=<path to ViennaCL Library> -DOpenCV_DIR=<path to OpenCV build> -DOPENCL_LIBRARIES= <path to AMD APP SDK Static Library> ..`
