@@ -1,6 +1,6 @@
-# Custom OpenCL Caffe-Windows 10 AMD GPU Only (Modified to work with MSVC 2017 15.0 and Python 2.7.15):
+# OpenCL Caffe Targeting AMD GPU's OpenCL (Modified to work with MSVC 2017 15.0 and Python 2.7.15) on Windows 10:
 
-**This is an experimental but working forked Opencl branch of caffe for AMD GPUs Only. Forked from https://github.com/BVLC/caffe/commit/74312cfc64c07b69616c8d0d5e1b6b020670c783**
+**This is an experimental but working repo i.e. forked from official caffe's Opencl branch for targeting AMD GPUs Only. Forked from https://github.com/BVLC/caffe/commit/74312cfc64c07b69616c8d0d5e1b6b020670c783**
 
 ## Custom requirements for this branch:
 
@@ -21,7 +21,6 @@ Open Command Prompt and follow up:
 - `mkdir build && cd build`
 - `cmake -G"Visual Studio 15 2017 Win64" -DBLAS=Open -DViennaCL_INCLUDE_DIR=<path to ViennaCL Library> -DOpenCV_DIR=<path to OpenCV build> -DOPENCL_LIBRARIES= <path to AMD APP SDK Static Library> ..`
 - `cmake --build . --target install --config release`
-
 
 
 ## Other Custom distributions
