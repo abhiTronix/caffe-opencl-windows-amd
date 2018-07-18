@@ -12,9 +12,9 @@
 - AMD GPU with Latest drivers installed properly
 - AMD APP SDK Windows(any version - Preferred-3.0) installed
 - ViennaCL Library (Latest version - do not compile or install) as backend.
-- AMD GPU offcourse.
+- AMD GPU ofcourse.
 
-## Installing and compiling procedure:
+## Configuring and compiling procedure:
 Open Command Prompt and follow up:
 - `git clone https://github.com/abhiTronix/caffe-opencl-windows-amd.git`
 - `cd caffe`
