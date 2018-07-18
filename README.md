@@ -16,7 +16,7 @@
 
 ## Installing and compiling procedure:
 Open Command Prompt and follow up:
-- `git clone https://github.com/abhiTronix/caffe.git`
+- `git clone https://github.com/abhiTronix/caffe-opencl-windows-amd.git`
 - `cd caffe`
 - `git checkout opencl-windows-amd`
 - `mkdir build && cd build`
